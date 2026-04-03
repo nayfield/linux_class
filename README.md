@@ -35,6 +35,45 @@ Work through the units in order — each builds on the previous one. Read the co
   Local copy: [cpumemory.pdf](cpumemory.pdf)
   Read before Unit 01 and again after Unit 07.
 
+## Books and References
+
+Resources mentioned throughout the curriculum, collected here for convenience.
+
+### Books
+
+| Title | Author(s) | Units |
+|-------|-----------|-------|
+| *What Every Programmer Should Know About Memory* | Ulrich Drepper | 01, 08 |
+| *The C Programming Language* (K&R) | Brian Kernighan & Dennis Ritchie | 05, 07, 08 |
+| *C Programming: A Modern Approach* | K.N. King | 05 |
+| *The Practice of Programming* | Brian Kernighan & Rob Pike | 08 |
+| *Advanced Programming in the UNIX Environment* (APUE) | W. Richard Stevens & Stephen Rago | 09, 11, 12 |
+| *Unix Network Programming* | W. Richard Stevens | 18 |
+| *Test Driven Development for Embedded C* | James Grenning | 17 |
+| *Expert C Programming* | Peter van der Linden | 18 |
+| *Systems Performance* | Brendan Gregg | 18 |
+| *The Linux Command Line* | William Shotts | 02 |
+
+### Online Resources
+
+| Resource | URL | Units |
+|----------|-----|-------|
+| The Art of the Command Line | https://github.com/jlevy/the-art-of-command-line | 03 |
+| The Missing Semester of Your CS Education | https://missing.csail.mit.edu/ | 03 |
+| Pro Git | https://git-scm.com/book/en/v2 | 04 |
+| GNU Make Manual | https://www.gnu.org/software/make/manual/ | 06 |
+| CMake Documentation | https://cmake.org/cmake/help/latest/ | 06 |
+| Lord of the io_uring | https://unixism.net/loti/ | 10 |
+| Debugging with GDB (GNU manual) | https://sourceware.org/gdb/current/onlinedocs/gdb/ | 14 |
+| Valgrind Manual | https://valgrind.org/docs/manual/ | 14 |
+| Beej's Guide to Network Programming | https://beej.us/guide/bgnet/ | 15 |
+| Unity Test Framework | https://github.com/ThrowTheSwitch/Unity | 17 |
+| CMocka | https://cmocka.org/ | 17 |
+| Debian Packaging Guide | https://www.debian.org/doc/manuals/maint-guide/ | 18 |
+| Docker Documentation | https://docs.docker.com/ | 18 |
+| musl libc | https://musl.libc.org/ | 18 |
+| The Linux Command Line (free online) | https://linuxcommand.org/tlcl.php | 02 |
+
 ## Prerequisites
 
 - A Linux system (native install or VM — Ubuntu/Debian recommended for beginners)

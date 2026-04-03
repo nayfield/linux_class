@@ -25,6 +25,11 @@ https://github.com/jlevy/the-art-of-command-line
 
 Read the whole document top to bottom before working through this unit. It is not long. Then return to each section here for deeper practice.
 
+## Optional Reading
+
+- **The Missing Semester of Your CS Education** — https://missing.csail.mit.edu/
+  Covers shell tools, editors, version control, debugging, and other practical skills that overlap with and complement this unit.
+
 ## Concepts
 
 ### Keyboard Shortcuts: Move at the Speed of Thought
