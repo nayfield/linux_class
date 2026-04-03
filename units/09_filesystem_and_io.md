@@ -273,4 +273,4 @@ Test with: in one terminal run `./mytail -f /tmp/test.log`, in another run `echo
 
 ## What Comes Next
 
-Unit 11 covers processes — `fork`, `exec`, `wait`. Processes inherit their parent's file descriptors, which is how shell pipelines (`cmd1 | cmd2`) work. Understanding file descriptors now makes that click into place.
+Unit 10 covers `mmap` and advanced I/O — mapping files directly into memory and zero-copy transfers. Unit 11 then covers processes — `fork`, `exec`, `wait`. Processes inherit their parent's file descriptors, which is how shell pipelines (`cmd1 | cmd2`) work.

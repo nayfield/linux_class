@@ -184,7 +184,7 @@ git stash pop stash@{2}     # restore specific stash
 git restore file.c          # discard unstaged changes (irreversible)
 git restore --staged file.c # unstage a file
 git revert HEAD             # create a new commit that undoes last commit (safe)
-git reset HEAD~1            # undo last commit, keep changes staged
+git reset HEAD~1            # undo last commit, changes become unstaged
 git reset --soft HEAD~1     # undo last commit, keep changes staged
 git reset --hard HEAD~1     # undo last commit AND discard changes (destructive)
 

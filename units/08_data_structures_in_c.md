@@ -7,7 +7,7 @@ Implementing data structures from scratch in C is the best way to solidify point
 ## Prerequisites
 
 - Unit 07 (Pointers & Memory Management) — malloc/free, pointer arithmetic, dynamic arrays
-- Unit 05 (C Language Fundamentals) — structs, function pointers
+- Unit 05 (C Language Fundamentals) — types, arrays, functions
 - Unit 06 (Compilation & Build Tools) — multi-file project layout
 
 ## Learning Objectives
@@ -186,7 +186,7 @@ typedef struct HEntry {
 typedef struct { HEntry *buckets[HT_SIZE]; } HTable;
 
 static size_t hash(const char *key) {
-    // djb2 hash
+    // djb2 XOR variant
     size_t h = 5381;
     for (; *key; key++) h = h * 33 ^ (unsigned char)*key;
     return h % HT_SIZE;

@@ -308,4 +308,4 @@ Track all allocations and report unfreed memory at program exit using `atexit`. 
 
 ## What Comes Next
 
-Unit 18 covers packaging and deployment — how to distribute your C programs as proper Linux packages, run them as system services with systemd, and build portable static binaries.
+Unit 17 covers testing — how to write unit tests with Unity, measure coverage with gcov, and integrate tests into your build. Unit 18 then covers packaging and deployment — distributing your programs as Linux packages, running them as systemd services, and building portable static binaries.

@@ -246,7 +246,7 @@ For simple operations like incrementing a counter, `<stdatomic.h>` avoids the ov
 ```c
 #include <stdatomic.h>
 
-atomic_int counter = ATOMIC_VAR_INIT(0);
+atomic_int counter = 0;
 
 void *increment(void *arg) {
     for (int i = 0; i < 1000000; i++) {

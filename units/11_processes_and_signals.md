@@ -70,7 +70,7 @@ After `fork`, parent and child run independently. They have separate copies of a
 
 ### exec
 
-`exec` replaces the current process image with a new program. The process keeps its PID, file descriptors, and signal handlers (mostly), but the code and memory are replaced.
+`exec` replaces the current process image with a new program. The process keeps its PID and file descriptors, but the code and memory are replaced. Signal handlers are reset to their defaults — only ignored signals (`SIG_IGN`) stay ignored across `exec`.
 
 ```c
 #include <unistd.h>
@@ -299,4 +299,4 @@ Verify with `ps aux | grep yourdaemon`.
 
 ## What Comes Next
 
-Unit 13 introduces threads — lightweight concurrent execution within a single process. Unlike `fork`, threads share memory, which makes coordination essential and bugs subtle.
+Unit 12 covers inter-process communication — pipes, FIFOs, Unix sockets, and shared memory for cooperation between processes. Unit 13 then introduces threads — lightweight concurrent execution within a single process where coordination is essential because threads share memory.

@@ -255,7 +255,7 @@ Modify hello.c to ask the user for their name and print a personalized greeting.
 
 Print numbers 1 through 100. For multiples of 3, print "Fizz" instead. For multiples of 5, print "Buzz". For multiples of both, print "FizzBuzz".
 
-### Exercise 3: String Functions Without stdlib
+### Exercise 3: String Functions Without string.h
 
 Implement these functions yourself (do not use `<string.h>`):
 

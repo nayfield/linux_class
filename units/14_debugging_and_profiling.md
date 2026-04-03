@@ -2,7 +2,7 @@
 
 ## Overview
 
-Professional Linux developers spend as much time debugging as writing code. This unit covers the full debugging toolkit: gdb for interactive debugging, valgrind for memory error detection, strace/ltrace for tracing system calls and library calls, and perf for CPU performance profiling. It also introduces the compiler sanitizers — AddressSanitizer and ThreadSanitizer — which catch entire classes of bugs at near-zero overhead. By the end you will be able to diagnose and fix bugs that would otherwise take days to find.
+Professional Linux developers spend as much time debugging as writing code. This unit covers the full debugging toolkit: gdb for interactive debugging, valgrind for memory error detection, strace/ltrace for tracing system calls and library calls, and perf for CPU performance profiling. It also introduces the compiler sanitizers — AddressSanitizer and ThreadSanitizer — which catch entire classes of bugs at much lower overhead than valgrind. By the end you will be able to diagnose and fix bugs that would otherwise take days to find.
 
 ## Prerequisites
 

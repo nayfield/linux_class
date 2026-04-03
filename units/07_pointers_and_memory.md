@@ -355,4 +355,4 @@ In another terminal: `cat /proc/<PID>/maps`. Identify which memory region each a
 
 ## What Comes Next
 
-Unit 09 uses pointers extensively — file descriptors are just integers, but the data you read/write lives in buffers you manage. Unit 14 (Debugging) teaches you to use gdb to inspect memory and catch pointer bugs live.
+Unit 08 builds on pointers directly — you will implement linked lists, hash tables, and trees from scratch. Unit 09 then uses pointers extensively for file I/O buffers, and Unit 14 (Debugging) teaches you to catch pointer bugs live with gdb.
