@@ -18,6 +18,7 @@ Work through the units in order — each builds on the previous one. Read the co
 | [06](units/06_compilation_and_build.md) | Compilation & Build Tools | gcc, Makefiles, cmake |
 | [07](units/07_pointers_and_memory.md) | Pointers & Memory Management | malloc/free, stack vs heap, memory bugs |
 | [08](units/08_data_structures_in_c.md) | Data Structures in C | Linked lists, hash tables, BST, arenas |
+| [08a](units/08a_pointer_arithmetic.md) | Pointer Arithmetic for Data Processing | Delta encoding, neighbor access, compression patterns |
 | [09](units/09_filesystem_and_io.md) | Filesystem & File I/O | POSIX file API, file descriptors |
 | [10](units/10_mmap_and_advanced_io.md) | mmap & Advanced I/O | Memory-mapped files, sendfile, io_uring |
 | [11](units/11_processes_and_signals.md) | Processes & Signals | fork/exec/wait, signals, /proc |
